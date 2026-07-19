@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Aurelia Journeys designs bespoke luxury travel — private escapes to Santorini, the Maldives, Kyoto and beyond, shaped around the way you want to feel." />
+  <meta name="theme-color" content="#152a3a" />
+  <title>Aurelia Journeys — Bespoke Luxury Travel</title>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aurelia Journeys — Bespoke Luxury Travel" />
+  <meta property="og:description"
+    content="Private travel, personally considered. Unhurried journeys to remarkable places." />
+  <meta property="og:image"
+    content="https://d8j0ntlcm91z4.cloudfront.net/user_3GKMiha1iPa2ChLGK39TrTm5HzW/hf_20260717_105920_5512c403-c791-4e70-a9be-d698dd11b385.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23152a3a'/%3E%3Ctext x='32' y='43' font-size='34' text-anchor='middle' fill='%23d9794b' font-family='Georgia,serif'%3EA%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="canonical" href="https://www.aureliajourneys.example/" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "Aurelia Journeys",
+    "description": "Bespoke luxury travel design — private escapes to Santorini, the Maldives, Kyoto and beyond, shaped around the way you want to feel.",
+    "url": "https://www.aureliajourneys.example/",
+    "telephone": "+1-800-555-0142",
+    "email": "hello@aureliajourneys.example",
+    "foundingDate": "2009",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "128"
+    },
+    "sameAs": [
+      "https://www.instagram.com/",
+      "https://www.pinterest.com/",
+      "https://www.facebook.com/"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How far in advance should I book a journey?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most escapes are shaped 3–6 months ahead, which gives us room to secure the right suites and experiences. For peak seasons or multi-stop itineraries, 8–12 months is ideal — but we've also pulled together beautiful trips on much shorter notice."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can my itinerary change after booking?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Your travel designer stays with you from first inquiry through your return home, and can adjust stays, pacing, or experiences as your plans evolve — subject to availability with our partner properties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does the estimated budget actually include?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It's a planning range covering accommodation, private transfers, and curated experiences for the group. Flights, travel insurance, and personal spending are typically quoted separately once your itinerary is confirmed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you help with visas and travel documents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We'll flag what you need and the recommended timeline for your specific itinerary and passport, and can refer you to trusted visa services — though the applications themselves are handled by you or your visa provider."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I need to change my travel dates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Let your travel designer know as early as possible. Flexibility depends on each property's and partner's policies, which we'll always explain clearly before you book."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <div class="progress-bar" aria-hidden="true">
+    <div class="progress-fill"></div>
+  </div>
+
+  <header class="header">
+    <div class="shell">
+      <a class="logo" href="#home">
+        <span class="logo-mark" aria-hidden="true">A</span>
+        <span class="logo-text">AURELIA<small>JOURNEYS</small></span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#destinations">Destinations</a>
+        <a href="#stays">Stays</a>
+        <a href="#journal">Journal</a>
+      </nav>
+      <a href="#plan" class="nav-cta" data-open-planner>Plan a journey <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+    <div class="mobile-nav-top">
+      <a class="logo" href="#home">
+        <span class="logo-mark" aria-hidden="true">A</span>
+        <span class="logo-text">AURELIA<small>JOURNEYS</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Close menu" aria-expanded="true" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#destinations"><span>01</span>Destinations</a>
+      <a href="#stays"><span>02</span>Stays</a>
+      <a href="#journal"><span>03</span>Journal</a>
+    </div>
+    <a href="#plan" class="nav-cta" data-open-planner>Plan a journey <span>↗</span></a>
+    <div class="mobile-nav-bottom">
+      <a href="mailto:hello@aureliajourneys.example">hello@aureliajourneys.example</a>
+      <a href="tel:+18005550142">+1 (800) 555‑0142</a>
+      <div class="social-row">
+        <a class="social-icon" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.4">
+            <rect x="3" y="3" width="18" height="18" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.3" cy="6.7" r="1" />
+          </svg></a>
+        <a class="social-icon" href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.4">
+            <circle cx="12" cy="12" r="9" />
+            <path
+              d="M9 17.5c1-3 1.5-5.5 2-8a2.5 2.5 0 1 1 4.8-1c.3 1.6-.4 3.6-1 5.2-.4 1 .3 1.8 1.3 1.8 2 0 3.4-2.5 3.4-5.4 0-2.8-2-4.9-5.6-4.9-4 0-6.4 3-6.4 6.1 0 1.1.4 2.3 1 3" />
+          </svg></a>
+        <a class="social-icon" href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.4">
+            <circle cx="12" cy="12" r="9" />
+            <path
+              d="M13.5 21v-6.5H16l.4-3H13.5v-2c0-.9.3-1.5 1.6-1.5H16V5.3C15.7 5.3 14.8 5 13.8 5 11.7 5 10 6.3 10 8.7v2.8H8v3h2V21" />
+          </svg></a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-media">
+        <img class="hero-photo"
+          src="https://d8j0ntlcm91z4.cloudfront.net/user_3GKMiha1iPa2ChLGK39TrTm5HzW/hf_20260717_105920_5512c403-c791-4e70-a9be-d698dd11b385.png" alt=""
+          loading="eager" decoding="async" />
+        <div class="hero-scrim"></div>
+      </div>
+
+      <div class="shell hero-content">
+        <p class="eyebrow hero-in" style="--d:0s">Private travel, personally considered</p>
+        <h1 class="hero-heading">
+          <span class="hero-in" style="--d:.08s">The world,</span>
+          <span class="hero-in" style="--d:.16s"><em>beautifully</em> arranged.</span>
+        </h1>
+        <p class="hero-copy hero-in" style="--d:.24s">Unhurried journeys to remarkable places, designed around the way
+          you want to feel.</p>
+        <div class="hero-actions hero-in" style="--d:.32s">
+          <button class="pill-btn pill-solid" type="button" data-open-planner>Plan a journey <span>→</span></button>
+          <a class="pill-btn pill-ghost" href="#destinations">Explore destinations</a>
+        </div>
+      </div>
+
+      <div class="hero-stats hero-in" style="--d:.4s" aria-hidden="true">
+        <div class="stat-chip"><strong>17+</strong><span>Years designing journeys</span></div>
+        <div class="stat-chip"><strong>60+</strong><span>Countries curated</span></div>
+        <div class="stat-chip"><strong>4.9★</strong><span>Average client rating</span></div>
+      </div>
+
+      <form class="quick-search hero-in" style="--d:.48s" data-open-planner>
+        <label><svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z" />
+            <circle cx="12" cy="9.5" r="2.4" />
+          </svg><span>Where to?</span><input name="destination" placeholder="Choose a destination" /></label>
+        <label><svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <rect x="3.5" y="5" width="17" height="16" rx="2.5" />
+            <path d="M3.5 9.5h17M8 3v4M16 3v4" />
+          </svg><span>When</span><input name="dates" placeholder="Any time of year" /></label>
+        <label><svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="9" cy="8.5" r="3" />
+            <path d="M2.5 20c0-3.6 3-6 6.5-6s6.5 2.4 6.5 6" />
+            <path d="M16.5 6.5a3 3 0 1 1 1.7 5.5" />
+            <path d="M21.5 20c0-2.8-1.9-4.9-4.3-5.6" />
+          </svg><span>Travellers</span><input name="guests" placeholder="2 guests" /></label>
+        <button type="submit" aria-label="Start planning">→</button>
+      </form>
+
+      <p class="scroll-cue">Scroll</p>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Santorini</span><span class="dot">·</span><span>Maldives</span><span
+          class="dot">·</span><span>Kyoto</span><span class="dot">·</span><span>Amalfi Coast</span><span
+          class="dot">·</span><span>Marrakech</span><span class="dot">·</span><span>Bora Bora</span><span
+          class="dot">·</span>
+        <span>Santorini</span><span class="dot">·</span><span>Maldives</span><span
+          class="dot">·</span><span>Kyoto</span><span class="dot">·</span><span>Amalfi Coast</span><span
+          class="dot">·</span><span>Marrakech</span><span class="dot">·</span><span>Bora Bora</span><span
+          class="dot">·</span>
+      </div>
+    </div>
+
+    <section class="press shell reveal">
+      <p class="press-label">As seen in</p>
+      <div class="press-row">
+        <span>THE WANDER JOURNAL</span>
+        <span>PORTICO TRAVEL</span>
+        <span>MERIDIAN</span>
+        <span>ATLAS QUARTERLY</span>
+        <span>FARSIDE</span>
+      </div>
+    </section>
+
+    <section class="intro shell reveal">
+      <p class="eyebrow">Travel, made personal</p>
+      <div>
+        <h2>Leave the <em>ordinary</em><br />beautifully behind.</h2>
+        <p>Every Aurelia escape is shaped around your sense of discovery—from soulful stays to moments no guidebook can
+          offer.</p>
+      </div>
+    </section>
+
+    <section class="destinations shell" id="destinations">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Go somewhere memorable</p>
+          <h2>Places with<br /><em>a pulse.</em></h2>
+        </div>
+        <p>Click a destination to explore it.</p>
+      </div>
+      <div class="destination-grid reveal">
+        <a class="destination-card tall" href="santorini.html" data-destination="santorini"><img loading="lazy"
+            decoding="async"
+            src="https://d8j0ntlcm91z4.cloudfront.net/user_3GKMiha1iPa2ChLGK39TrTm5HzW/hf_20260717_105934_90d6fefd-099e-43f8-be01-2b9b06ed3f87.png"
+            alt="Santorini coast" />
+          <div>
+            <p>01 · Greece</p>
+            <h3>Santorini</h3><span>↗</span>
+          </div>
+        </a>
+        <a class="destination-card" href="maldives.html" data-destination="maldives"><img loading="lazy" decoding="async"
+            src="https://d8j0ntlcm91z4.cloudfront.net/user_3GKMiha1iPa2ChLGK39TrTm5HzW/hf_20260717_105939_26f75666-1b3b-46ca-a2c2-0400ea14a766.png"
+            alt="Maldives resort" />
+          <div>
+            <p>02 · Indian Ocean</p>
+            <h3>Maldives</h3><span>↗</span>
+          </div>
+        </a>
+        <a class="destination-card" href="kyoto.html" data-destination="kyoto"><img loading="lazy" decoding="async"
+            src="https://images.unsplash.com/photo-1754672519474-b63317b52ccd?auto=format&fit=crop&w=900&q=85"
+            alt="Kyoto temple" />
+          <div>
+            <p>03 · Japan</p>
+            <h3>Kyoto</h3><span>↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="featured reveal" id="stays"><img loading="lazy" decoding="async"
+        src="https://images.unsplash.com/photo-1759223198981-661cadbbff36?auto=format&fit=crop&w=1500&q=85"
+        alt="Luxury hotel" />
+      <div>
+        <p class="eyebrow">A stay worth staying for</p>
+        <h2>Aman<br /><em>New York</em></h2>
+        <p>Above the rhythm of Manhattan, a sanctuary of Japanese calm and old-world grandeur.</p><button
+          class="dark-button" data-open-planner>Explore the stay <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="testimonials shell">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Kind words</p>
+          <h2>Journeys,<br /><em>remembered.</em></h2>
+        </div>
+      </div>
+      <div class="testimonial-grid reveal">
+        <article class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <p>Every detail felt considered, right down to the sommelier who knew our anniversary. We didn't plan a thing
+            after landing.</p>
+          <footer><strong>Eleanor R.</strong><span>Santorini, 2025</span></footer>
+        </article>
+        <article class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <p>Our travel designer understood the pace we wanted before we'd fully worked it out ourselves. Effortless
+            from start to finish.</p>
+          <footer><strong>Marcus T.</strong><span>Maldives, 2025</span></footer>
+        </article>
+        <article class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <p>The tea ceremony arranged in Kyoto was the highlight of our year. Aurelia finds the moments you wouldn't
+            find on your own.</p>
+          <footer><strong>Priya K.</strong><span>Kyoto, 2026</span></footer>
+        </article>
+      </div>
+    </section>
+
+    <section class="journal shell reveal" id="journal">
+      <p class="eyebrow">From the journal</p>
+      <h2>Stories to<br /><em>take with you.</em></h2>
+      <div class="journal-grid">
+        <article><a class="journal-card-link" href="journal-cyclades.html"><img loading="lazy" decoding="async"
+            src="https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?auto=format&fit=crop&w=1000&q=85"
+            alt="Greek island travel" />
+          <p>Slow travel</p>
+          <h3>How to fall for the Cyclades, properly</h3></a>
+        </article>
+        <article><a class="journal-card-link" href="journal-arriving.html"><img loading="lazy" decoding="async"
+            src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=85"
+            alt="Mountain travel" />
+          <p>Field notes</p>
+          <h3>The art of arriving with nowhere to be</h3></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="calculator shell reveal" id="estimate">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Rough numbers, real fast</p>
+          <h2>Estimate your<br /><em>journey.</em></h2>
+        </div>
+        <p>A quick planning estimate — your travel designer will refine it once we know more.</p>
+      </div>
+      <div class="calculator-panel">
+        <form id="estimate-form" class="calculator-form" novalidate>
+          <label>Destination
+            <select name="destination">
+              <option value="santorini">Santorini, Greece</option>
+              <option value="maldives">Maldives</option>
+              <option value="kyoto">Kyoto, Japan</option>
+              <option value="other">Somewhere else</option>
+            </select>
+          </label>
+          <label>Nights
+            <input type="number" name="nights" min="2" max="30" value="7" />
+          </label>
+          <label>Guests
+            <select name="guests">
+              <option value="1">1 guest</option>
+              <option value="2" selected>2 guests</option>
+              <option value="4">3–4 guests</option>
+              <option value="6">5+ guests</option>
+            </select>
+          </label>
+          <label>Travel style
+            <select name="style">
+              <option value="relaxation">Relaxation &amp; wellness</option>
+              <option value="culture">Food &amp; culture</option>
+              <option value="adventure">Adventure &amp; nature</option>
+              <option value="celebration">Celebration</option>
+            </select>
+          </label>
+        </form>
+        <div class="calculator-result" aria-live="polite">
+          <p class="eyebrow">Estimated range</p>
+          <p class="calculator-figure" id="estimate-figure">$0</p>
+          <p class="calculator-note">Covers accommodation, private transfers, and curated experiences for your group. Flights and personal spending are quoted separately.</p>
+          <button type="button" class="dark-button" data-open-planner>Refine this with a designer <span>→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq shell reveal">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Good to know</p>
+          <h2>Questions,<br /><em>answered.</em></h2>
+        </div>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" name="faq">
+          <summary>How far in advance should I book a journey?</summary>
+          <p>Most escapes are shaped 3–6 months ahead, which gives us room to secure the right suites and experiences.
+            For peak seasons or multi-stop itineraries, 8–12 months is ideal — but we've also pulled together beautiful
+            trips on much shorter notice.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Can my itinerary change after booking?</summary>
+          <p>Yes. Your travel designer stays with you from first inquiry through your return home, and can adjust stays,
+            pacing, or experiences as your plans evolve — subject to availability with our partner properties.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>What does the estimated budget actually include?</summary>
+          <p>It's a planning range covering accommodation, private transfers, and curated experiences for the group.
+            Flights, travel insurance, and personal spending are typically quoted separately once your itinerary is
+            confirmed.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Do you help with visas and travel documents?</summary>
+          <p>We'll flag what you need and the recommended timeline for your specific itinerary and passport, and can
+            refer you to trusted visa services — though the applications themselves are handled by you or your visa
+            provider.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>What if I need to change my travel dates?</summary>
+          <p>Let your travel designer know as early as possible. Flexibility depends on each property's and partner's
+            policies, which we'll always explain clearly before you book.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="cta reveal" id="plan">
+      <div class="shell">
+        <p class="eyebrow">Your journey begins here</p>
+        <h2>Where would you<br /><em>rather be?</em></h2>
+        <p>Tell us what calls to you. Our travel designers will create something memorable.</p><button
+          class="light-button" data-open-planner>Start planning <span>→</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="#home">
+            <span class="logo-mark" aria-hidden="true">A</span>
+            <span class="logo-text">AURELIA<small>JOURNEYS</small></span>
+          </a>
+          <p>Bespoke travel design for people who'd rather feel a place than tick it off a list. Est. 2009.</p>
+          <div class="social-row">
+            <a class="social-icon" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.4">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.3" cy="6.7" r="1" />
+              </svg></a>
+            <a class="social-icon" href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.4">
+                <circle cx="12" cy="12" r="9" />
+                <path
+                  d="M9 17.5c1-3 1.5-5.5 2-8a2.5 2.5 0 1 1 4.8-1c.3 1.6-.4 3.6-1 5.2-.4 1 .3 1.8 1.3 1.8 2 0 3.4-2.5 3.4-5.4 0-2.8-2-4.9-5.6-4.9-4 0-6.4 3-6.4 6.1 0 1.1.4 2.3 1 3" />
+              </svg></a>
+            <a class="social-icon" href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.4">
+                <circle cx="12" cy="12" r="9" />
+                <path
+                  d="M13.5 21v-6.5H16l.4-3H13.5v-2c0-.9.3-1.5 1.6-1.5H16V5.3C15.7 5.3 14.8 5 13.8 5 11.7 5 10 6.3 10 8.7v2.8H8v3h2V21" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <p class="col-title">Destinations</p>
+          <a href="santorini.html" data-destination="santorini">Santorini</a>
+          <a href="maldives.html" data-destination="maldives">Maldives</a>
+          <a href="kyoto.html" data-destination="kyoto">Kyoto</a>
+          <a href="#destinations">All destinations</a>
+        </div>
+
+        <div class="footer-col">
+          <p class="col-title">Studio</p>
+          <a href="#plan" data-open-planner>Plan a journey</a>
+          <a href="#journal">Journal</a>
+          <a href="mailto:hello@aureliajourneys.example">hello@aureliajourneys.example</a>
+          <a href="tel:+18005550142">+1 (800) 555‑0142</a>
+        </div>
+
+        <div class="footer-col footer-newsletter">
+          <p class="col-title">Stay in the loop</p>
+          <p class="footer-lead">A handful of ideas a year for where to go next — no noise.</p>
+          <form class="newsletter-form" novalidate>
+            <label class="sr-only" for="newsletter-email" style="position:absolute;left:-9999px">Email address</label>
+            <input id="newsletter-email" type="email" name="email" placeholder="you@example.com" required
+              autocomplete="email" />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="footer-note" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Aurelia Journeys. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy policy</a>
+          <a href="terms.html">Terms of service</a>
+          <a href="privacy.html#cookies">Cookie settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <a class="whatsapp-fab" href="https://wa.me/18005550142?text=Hi%20Aurelia%20Journeys%2C%20I%27d%20like%20to%20plan%20a%20journey."
+    target="_blank" rel="noopener" aria-label="Chat with a travel designer on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path
+        d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.85.5 3.58 1.36 5.07L2 22l5.2-1.47a9.86 9.86 0 0 0 4.84 1.27h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.78 14.05c-.24.68-1.4 1.3-1.93 1.37-.5.07-1.12.1-1.8-.11-.42-.13-.95-.3-1.64-.6-2.9-1.25-4.79-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.29.57-.36.76-.36h.55c.18 0 .42-.07.65.5.24.57.8 1.98.87 2.13.07.14.11.31.02.5-.09.19-.14.31-.28.47-.14.17-.29.37-.42.5-.14.13-.28.28-.12.55.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.86-1.06.18-.28.36-.23.6-.14.24.09 1.55.73 1.82.86.27.14.45.2.51.32.07.11.07.65-.17 1.34Z" />
+    </svg>
+  </a>
+
+  <section class="modal" id="destination-modal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="destination-name">
+    <div class="backdrop" data-close></div>
+    <div class="modal-panel destination-panel"><button class="close" type="button" aria-label="Close"
+        data-close>×</button>
+      <div id="destination-view"></div>
+    </div>
+  </section>
+
+  <section class="modal" id="planner-modal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="planner-title">
+    <div class="backdrop" data-close></div>
+    <div class="modal-panel planner-panel"><button class="close" type="button" aria-label="Close" data-close>×</button>
+      <aside class="planner-aside">
+        <p class="eyebrow">Aurelia travel design</p>
+        <h2 id="planner-title">Let's shape your<br /><em>next escape.</em></h2>
+        <p>Share a few details and we'll curate a journey around the way you want to travel.</p>
+      </aside>
+      <div class="planner-body">
+        <div class="form-creature" aria-hidden="true">
+          <div class="creature-face">
+            <span class="eye eye-left"></span>
+            <span class="eye eye-right"></span>
+            <span class="creature-mouth"></span>
+          </div>
+        </div>
+        <form id="journey-form" novalidate>
+          <div class="form-alert" role="alert"></div>
+          <label class="website-field" aria-hidden="true">Leave blank<input name="website" tabindex="-1"
+              autocomplete="off" /></label>
+          <label>Full name <span class="req">*</span><input name="name" autocomplete="name" required /></label>
+          <label>Email address <span class="req">*</span><input name="email" type="email" autocomplete="email"
+              required /></label>
+          <label>Phone number<input name="phone" type="tel" autocomplete="tel" /></label>
+          <label>Dream destination <span class="req">*</span><select name="destination" required>
+              <option value="">Select a destination</option>
+              <option>Santorini, Greece</option>
+              <option>Maldives</option>
+              <option>Kyoto, Japan</option>
+              <option>Somewhere else</option>
+            </select></label>
+          <label>Travel window <span class="req">*</span><input name="dates" placeholder="e.g. September 2026"
+              required /></label>
+          <label>Number of guests <span class="req">*</span><select name="guests" required>
+              <option value="">Select guests</option>
+              <option>1 guest</option>
+              <option>2 guests</option>
+              <option>3–4 guests</option>
+              <option>5+ guests</option>
+            </select></label>
+          <label>Estimated budget<select name="budget">
+              <option value="">Select a range</option>
+              <option>$5,000 – $10,000</option>
+              <option>$10,000 – $25,000</option>
+              <option>$25,000 – $50,000</option>
+              <option>$50,000+</option>
+            </select></label>
+          <label>Travel style<select name="style">
+              <option value="">What calls to you?</option>
+              <option>Relaxation & wellness</option>
+              <option>Food & culture</option>
+              <option>Adventure & nature</option>
+              <option>Celebration</option>
+            </select></label>
+          <label class="wide">Tell us more<textarea name="message" rows="3"
+              placeholder="Anything we should know?"></textarea></label>
+          <button class="submit wide" type="submit"><span class="submit-label">Send my inquiry
+              <span>→</span></span><span class="spinner" aria-hidden="true"></span></button>
+          <p class="wide form-note">We'll only use your details to plan your journey.</p>
+        </form>
+        <div class="success" hidden>
+          <p class="eyebrow">Inquiry received</p>
+          <h2>We'll be in<br /><em>touch shortly.</em></h2>
+          <p>Thank you for sharing your travel plans. An Aurelia travel designer will be in touch within 24 hours.</p>
+          <button class="dark-button" data-close>Back to exploring <span>→</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
